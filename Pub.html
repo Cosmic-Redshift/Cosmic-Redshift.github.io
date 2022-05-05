@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CosmicLattice</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+ font-family: "Times New Roman", serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #ff007d;;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+type="text/css">
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  }
+</style>
+</head>
+<body>
+  
+<div class="header">
+  <h1>Research Compendium</h1>
+  <p>Navjot Singh</p>
+</div>
+
+<div class="navbar">
+ <a href="uiop.html">Contents</a>
+<a href="pub.html">Publications</a>
+  <a href="index.html">Home</a>
+  <a href="#">Contact</a>
+  <a href="#" class="right">Product</a>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360346091_Non-locality_Non-separability_And_The_Fundamental_Nature_Of_Quantum_Mechanics?_sg%5B0%5D=u7aDwIT4f28p2bdJLUZudZEhyNkS1iaRjgwMGRQl5P_pyeu_vh1bhzwJPD56RJOzEjfTw_z3SDXfZkhTyNXXQHl5PX62-dKNvA22XMnb.ZLii3iAilEawHeWWdbBH404kGSnoL5z_cXCBSm6L6GkScwbQ0O125OUDQFd_3l4WnVhOsCY801wRHfNire55JQ">Non-locality, Non-separability And The Fundamental Nature Of Quantum Mechanics
+</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360324227_Galactic_Clusters?_sg%5B0%5D=u7aDwIT4f28p2bdJLUZudZEhyNkS1iaRjgwMGRQl5P_pyeu_vh1bhzwJPD56RJOzEjfTw_z3SDXfZkhTyNXXQHl5PX62-dKNvA22XMnb.ZLii3iAilEawHeWWdbBH404kGSnoL5z_cXCBSm6L6GkScwbQ0O125OUDQFd_3l4WnVhOsCY801wRHfNire55JQ">Galactic Clusters</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360317792_Symmetry_Breaking_for_the_SZ_Effect_in_Galaxy_Clusters_via_Polarization?_sg%5B0%5D=gnJxKoc4mzUbmQjbxCOQyqckeg4w1lAeshwxtAv_OHIgGnKTMl3kZqbZnAJVxZ3fhChY7ab6aorM4ScBQstVVX4-4iafh5aamtC5q5_p.Ug-i-SSGLOJBp0Kbcq7eexIjd9NPjFYtWg78Z4IszjyhfmcLKv2NrbLwsPD4hWST0WiaOOU-wLXd8YVBJBGP_A">Symmetry Breaking for the SZ Effect in Galaxy Clusters via Polarization</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360300474_A_New_Theory_of_Consciousness_Thermodynamic_Integration_of_Brain_Networks?_sg%5B0%5D=u7aDwIT4f28p2bdJLUZudZEhyNkS1iaRjgwMGRQl5P_pyeu_vh1bhzwJPD56RJOzEjfTw_z3SDXfZkhTyNXXQHl5PX62-dKNvA22XMnb.ZLii3iAilEawHeWWdbBH404kGSnoL5z_cXCBSm6L6GkScwbQ0O125OUDQFd_3l4WnVhOsCY801wRHfNire55JQ">A New Theory of Consciousness: Thermodynamic Integration of Brain Networks</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360297760_Habit_Formation_And_The_ACT-R_A_Model_Based_on_Perceptual_Dynamics_and_Attentional_Control?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Habit Formation And The ACT-R: A Model Based on Perceptual Dynamics and Attentional Control</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360175256_PTENP1-AS_Transcriptional_Analysis_of_an_ncRNA?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">PTENP1-AS: Transcriptional Analysis of an ncRNA</a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360167472_Near_Horizon_Quasi-normal_Modes_For_Schwarzschild_Ads_Black_Holes_in_Einstein-Gauss-Bonnet_Gravity_in_the_Chern-simons_AdS_System?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Near Horizon Quasi-normal Modes For Schwarzschild Ads Black Holes in Einstein-Gauss-Bonnet Gravity in the Chern-simons AdS System</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360086475_Neurobiology_and_Genetics_of_Pair_Bonding_A_New_Hypothesis?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Neurobiology and Genetics of Pair Bonding: A New Hypothesis</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/360020967_Planetary_Migration_Timescale_and_Its_Influence_on_Life's_Ability_to_Occupy_a_Habitable_Zone?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Planetary Migration Timescale and Its Influence on Life’s Ability to Occupy a Habitable Zone</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/359996705_Theoretical_Investigation_into_the_Emergence_of_Microbial_Life_in_Tightly_Orbiting_Habitable_Zones_around_M_Dwarfs?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Theoretical Investigation into the Emergence of Microbial Life in Tightly Orbiting Habitable Zones around M Dwarfs</a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="side">
+
+<a href="https://www.researchgate.net/publication/359996272_Structural_Correlates_Of_Spatial_Navigation_And_Memory_Formation?_sg%5B0%5D=VrJEn295CwNbE3tWCER6dFfHncCN-_rnoOkXc2Z3GKj9ff7034FuSXHNhEs4uypotAo2LFDri4pwM6yqUMwQu7exicRvo-GPyitJFJsL.C5d6Ls8B3Buau6ENbUN3v7TZiHGN4lEbPU9NqX2f25mqkDlT6Rqc1dzBOzRGxUXo9w_gObTlo66I8-_ZpAmQMA">Structural Correlates Of Spatial Navigation And Memory Formation</a>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+
